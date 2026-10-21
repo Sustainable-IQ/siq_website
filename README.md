@@ -22,7 +22,7 @@ Then visit `http://localhost:8080/`.
 
 ## Crucial setup before publishing
 
-**Email/contact:** `assets/site-config.js` deliberately has an empty `contactEmail`. Enter a confirmed business contact email to make the contact link active. The site has no backend and does not accept contact submissions. No live lead capture was claimed or simulated.
+**Contact form:** the home page contact form posts to [Formspree](https://formspree.io), which emails submissions to sustainableiq@gmail.com. Put the form's endpoint (`https://formspree.io/f/<id>`) in `formEndpoint` in `assets/site-config.js`; until then the form is shown disabled.
 
 **Inventory and hours:** Booth location is confirmed as 1305 W. Walnut Street, Rogers, AR, with 10 × 10 ft space and preopening status. Confirm actual opening date, hours and booth number before launch.
 
@@ -32,7 +32,7 @@ Then visit `http://localhost:8080/`.
 
 ## Deployment
 
-Upload **all** files, retaining relative directories, to any static host such as GitHub Pages, Netlify or standard web hosting. There are no dependencies, external fonts, trackers, cookies, form submissions or server APIs. All links between pages and local assets use relative URLs.
+Upload **all** files, retaining relative directories, to any static host such as GitHub Pages, Netlify or standard web hosting. There are no dependencies, external fonts, trackers or cookies; the only external service is Formspree for the contact form. All links between pages and local assets use relative URLs.
 
 ## Maintenance
 

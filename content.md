@@ -67,7 +67,7 @@ Credible, direct, warm, practical, specific, nonpartisan. Avoid alarmism, generi
 
 **Dual model:** Advisory for organizations; market booth for everyday life. Distinct audiences, shared thesis.
 
-**Contact:** Contact info pending verified email or an approved form provider. The site must not pretend contact submissions work until it is configured.
+**Contact:** Contact form on the home page, delivered by Formspree to sustainableiq@gmail.com. Set `formEndpoint` in `assets/site-config.js`; the form stays disabled until it is configured.
 
 ## 6. Services page outline
 

@@ -28,6 +28,33 @@
       el.classList.add('is-disabled');
     }
   });
+  document.querySelectorAll('[data-contact-form]').forEach(form => {
+    const endpoint = String(config.formEndpoint || '').trim();
+    const status = form.querySelector('[data-form-status]');
+    const button = form.querySelector('button[type="submit"]');
+    if (!/^https:\/\/formspree\.io\/f\/\w+$/.test(endpoint)) {
+      form.querySelectorAll('input, textarea, button').forEach(el => el.disabled = true);
+      status.textContent = 'The contact form is being activated. Please check back soon.';
+      return;
+    }
+    form.action = endpoint;
+    form.addEventListener('submit', async event => {
+      event.preventDefault();
+      button.disabled = true;
+      status.className = 'form-status';
+      status.textContent = 'Sending…';
+      try {
+        const res = await fetch(endpoint, {method: 'POST', body: new FormData(form), headers: {Accept: 'application/json'}});
+        if (!res.ok) throw new Error(res.status);
+        form.reset();
+        status.textContent = "Thank you. Your message has been sent and we'll be in touch soon.";
+        status.classList.add('is-success');
+      } catch {
+        status.textContent = 'Something went wrong. Please try again in a moment.';
+        status.classList.add('is-error');
+      } finally { button.disabled = false; }
+    });
+  });
   const filters = document.querySelectorAll('[data-filter]');
   const cards = document.querySelectorAll('[data-category]');
   filters.forEach(filter => filter.addEventListener('click', () => {
