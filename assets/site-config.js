@@ -3,7 +3,7 @@
 window.SIQ_CONFIG = Object.freeze({
   contactEmail: "",
   /* Formspree form endpoint, e.g. "https://formspree.io/f/abcd1234". The form stays disabled until set. */
-  formEndpoint: "",
+  formEndpoint: "https://formspree.io/f/meaebrpk",
   businessName: "Sustainable IQ",
   marketName: "Time Travelers Market",
   marketAddress: "1305 W. Walnut Street, Rogers, Arkansas",
