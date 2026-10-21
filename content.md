@@ -151,7 +151,7 @@ Located in `My Drive/cowork_files/my_career` (current versions as of 20 October 
 
 ## 10. Asset provenance
 
-Images in `assets/` are **illustrative, generated graphic concept crops**, not photographs of SIQ's physical booths or stocked products. Crops were taken from an AI-generated design study created for this project. Do not call them customer photos or documented inventory. The brand mark and favicon are original vector drawings for this draft.
+Images in `assets/` are **illustrative, generated graphic concept crops**, not photographs of SIQ's physical booths or stocked products. Crops were taken from an AI-generated design study created for this project. Do not call them customer photos or documented inventory. The Sustainable IQ logo (`siq-logo-source.png`) is the official brand logo supplied by SIQ; `siq-logo*.png`, `favicon-32.png` and `apple-touch-icon.png` are transparent / resized versions generated from it.
 
 ## 11. Before launch checklist
 
@@ -177,8 +177,11 @@ siq_website/
     styles.css
     site.js
     site-config.js
-    brand-mark.svg
-    favicon.svg
+    siq-logo-source.png
+    siq-logo.png / siq-logo-light.png
+    siq-logo-128.png / siq-logo-light-128.png
+    favicon-32.png
+    apple-touch-icon.png
     hero-landscape.webp
     booth-still-life.webp
     booth-interior.webp
