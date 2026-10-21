@@ -151,7 +151,7 @@ Located in `My Drive/cowork_files/my_career` (current versions as of 20 October 
 
 ## 10. Asset provenance
 
-Images in `assets/` are **illustrative, generated graphic concept crops**, not photographs of SIQ's physical booths or stocked products. Crops were taken from an AI-generated design study created for this project. Do not call them customer photos or documented inventory. The Sustainable IQ logo (`siq-logo-source.png`) is the official brand logo supplied by SIQ; `siq-logo*.png`, `favicon-32.png` and `apple-touch-icon.png` are transparent / resized versions generated from it.
+Images in `assets/` are **illustrative, generated graphic concept crops**, not photographs of SIQ's physical booths or stocked products. Crops were taken from an AI-generated design study created for this project. Do not call them customer photos or documented inventory. Exception: the home page hero (`ozarkimage1.jpeg`, web copy `ozarkimage1-web.jpg`) is a real Ozarks photograph supplied by SIQ. The Sustainable IQ logo (`siq-logo-source.png`) is the official brand logo supplied by SIQ; `siq-logo*.png`, `favicon-32.png` and `apple-touch-icon.png` are transparent / resized versions generated from it.
 
 ## 11. Before launch checklist
 
@@ -183,6 +183,7 @@ siq_website/
     favicon-32.png
     apple-touch-icon.png
     hero-landscape.webp
+    ozarkimage1.jpeg / ozarkimage1-web.jpg
     booth-still-life.webp
     booth-interior.webp
     cat-tools.webp
