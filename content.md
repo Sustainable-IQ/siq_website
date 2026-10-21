@@ -59,7 +59,7 @@ Credible, direct, warm, practical, specific, nonpartisan. Avoid alarmism, generi
 
 **Hero title:** Know what matters. Keep what matters.
 
-**Hero lead:** Sustainable IQ helps organizations navigate complex environmental decisions and brings practical self-reliance to everyday life. Different settings. One belief: understanding creates independence.
+**Hero lead:** Sustainable IQ helps people and organizations navigate complex environmental decisions and brings practical self-reliance to everyday life. Different settings. One belief: understanding creates independence.
 
 **Principles:** Understand first; Keep control; Build lasting value.
 
